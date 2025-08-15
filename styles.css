@@ -9,24 +9,29 @@ body {
     justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     body {
-        height: 110vh;
+        height: 230vh;
     }
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 768px) {
+    body {
+        height: 120vh;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    body {
+        height: 105vh;
+    }
+}
+
+@media screen and (max-width: 380px) {
     body {
         height: 140vh;
     }
 }
-
-@media screen and (max-width: 665px) {
-    body {
-        height: 145vh;
-    }
-}
-
 
 .container {
     background-color: orange;
