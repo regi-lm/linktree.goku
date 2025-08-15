@@ -1,0 +1,60 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #1e1e1e;
+    color: black;
+    height: 125vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        height: 150vh;
+    }
+}
+
+.container {
+    background-color: orange;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+    max-width: 80%;
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid navy;
+}
+
+.sub-title {
+    margin-bottom: 30px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 20px 0;
+    text-decoration: none;
+    background-color: rgb(255, 123, 0);
+    position: relative;
+}
+
+.link img {
+    width: 50px;
+    position: absolute;
+    left: 10px;
+}
+
+.link p {
+    color: black;
+}
+
