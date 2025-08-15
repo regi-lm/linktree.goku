@@ -17,19 +17,19 @@ body {
 
 @media screen and (max-width: 768px) {
     body {
-        height: 120vh;
+        height: 135vh;
     }
 }
 
 @media screen and (max-width: 425px) {
     body {
-        height: 105vh;
+        height: 130vh;
     }
 }
 
 @media screen and (max-width: 380px) {
     body {
-        height: 140vh;
+        height: 150vh;
     }
 }
 
