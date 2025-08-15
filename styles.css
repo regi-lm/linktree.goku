@@ -11,9 +11,22 @@ body {
 
 @media screen and (max-width: 768px) {
     body {
-        height: 150vh;
+        height: 110vh;
     }
 }
+
+@media screen and (max-width: 670px) {
+    body {
+        height: 140vh;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    body {
+        height: 145vh;
+    }
+}
+
 
 .container {
     background-color: orange;
